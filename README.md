@@ -92,6 +92,20 @@ See video that shows the confirmation and testing https://youtube.com/shorts/G1s
 See attached result
 [IVF_result_1.pdf](IVF_result_1.pdf "IVF_result_1.pdf")
 
+The cartesian product of the number of possible inputs is approximately
+
+```
+(2^7+1)*3^2*6*30*3*12
+
+7,523,280 possible inputs
+
+2^7 is the 7 true false choices
+1 is the unknown option
+3^2 is the 2 number choices
+30 is approximate number of possible weights
+3*12 is the approximate number of possible heights
+
+```
 # SCRIPTS
 
 The entire process is scripted and generates the HTML from the data which means simple changes changes can be implemented 
