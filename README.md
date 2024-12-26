@@ -102,6 +102,7 @@ The cartesian product of the number of possible inputs is approximately
 2^7 is the 7 true false choices
 1 is the unknown option
 3^2 is the 2 number choices
+6 is number of cases based on criteria (Do you plan to use your own eggs or donor eggs? and Have you checked with a doctor? And have you attempted IVF before?)
 30 is approximate number of possible weights
 3*12 is the approximate number of possible heights
 
