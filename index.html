@@ -1,0 +1,125 @@
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><meta name="description" content="Find your probability of success for assisted reproduction"><meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"></head>
+<body><script src="cdc_cleanroom_ivfsuccess.js"></script>
+<form name="ivf">
+<br><br><fieldset><legend>Do you plan to use your own eggs or donor eggs? and Have you checked with a doctor? And have you attempted IVF before?</legend>
+<select id="formselectcase" name="formselectcase">
+<option value="true|false|true"> using_own_eggs is true attempted_ivf_previously is false is_reason_for_infertility_know true</option>
+<option value="true|false|false"> using_own_eggs is true attempted_ivf_previously is false is_reason_for_infertility_know false</option>
+<option value="true|true|true"> using_own_eggs is true attempted_ivf_previously is true is_reason_for_infertility_know true</option>
+<option value="true|true|false"> using_own_eggs is true attempted_ivf_previously is true is_reason_for_infertility_know false</option>
+<option value="false|N/A|true"> using_own_eggs is false attempted_ivf_previously is N/A is_reason_for_infertility_know true</option>
+<option value="false|N/A|false"> using_own_eggs is false attempted_ivf_previously is N/A is_reason_for_infertility_know false</option>
+</select>
+</fieldset>
+<br><label>How old are you? (20-50)
+<select id="formage" name="formage">
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+</select>
+</label>
+<br><label>How much do you weigh? (80-300lbs)
+<select id="formweight" name="formweight">
+<option value="80">80</option>
+<option value="90">90</option>
+<option value="100">100</option>
+<option value="110">110</option>
+<option value="120">120</option>
+<option value="130">130</option>
+<option value="140">140</option>
+<option value="150">150</option>
+<option value="160">160</option>
+<option value="170">170</option>
+<option value="180">180</option>
+<option value="190">190</option>
+<option value="200">200</option>
+<option value="210">210</option>
+<option value="220">220</option>
+<option value="230">230</option>
+<option value="240">240</option>
+<option value="250">250</option>
+<option value="260">260</option>
+<option value="270">270</option>
+<option value="280">280</option>
+<option value="290">290</option>
+<option value="300">300</option>
+</select>
+</label>
+<br><label>How tall are you? (ft)(in)
+<select id="formheight_feet" name="formheight_feet">
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+<select id="formheight_inches" name="formheight_inches">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select>
+</label>
+<br><br><fieldset><legend>What is the reason you are using IVF? (select all that apply)</legend>
+<br><input onclick="clearspecial()" type="checkbox" id="tubal_factor" name="tubal_factor" value="tubal_factor"><label for="tubal_factor">tubal_factor</label>
+<br><input onclick="clearspecial()" type="checkbox" id="male_factor_infertility" name="male_factor_infertility" value="male_factor_infertility"><label for="male_factor_infertility">male_factor_infertility</label>
+<br><input onclick="clearspecial()" type="checkbox" id="endometriosis" name="endometriosis" value="endometriosis"><label for="endometriosis">endometriosis</label>
+<br><input onclick="clearspecial()" type="checkbox" id="ovulatory_disorder" name="ovulatory_disorder" value="ovulatory_disorder"><label for="ovulatory_disorder">ovulatory_disorder</label>
+<br><input onclick="clearspecial()" type="checkbox" id="diminished_ovarian_reserve" name="diminished_ovarian_reserve" value="diminished_ovarian_reserve"><label for="diminished_ovarian_reserve">diminished_ovarian_reserve</label>
+<br><input onclick="clearspecial()" type="checkbox" id="uterine_factor" name="uterine_factor" value="uterine_factor"><label for="uterine_factor">uterine_factor</label>
+<br><input onclick="clearspecial()" type="checkbox" id="other_reason" name="other_reason" value="other_reason"><label for="other_reason">other_reason</label>
+<br><br>OR<br><br><input onclick="clearothers()" type="checkbox" id="unexplained_infertility" name="unexplained_infertility" value="unexplained_infertility"><label for="unexplained_infertility">unexplained_infertility</label>
+</fieldset>
+<br><label>prior_pregnancies
+<select id="prior_pregnancies" name="prior_pregnancies">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2+">2+</option>
+</select>
+</label>
+<br><label>prior_live_births
+<select id="prior_live_births" name="prior_live_births">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2+">2+</option>
+</select>
+</label>
+<br><input type="button" onclick="getinput()" value="submit">
+<br><b>CLIENT SIDE:</b><br><textarea id="answer" readonly rows="4" cols="50"></textarea>
+<br><b>SERVER SIDE:</b><br><textarea id="answerserver" readonly rows="4" cols="50"></textarea>
+</form>
+</body></html>
