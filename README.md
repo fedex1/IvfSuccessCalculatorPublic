@@ -83,7 +83,9 @@ RESPONSE: {
 # Test Results
 
 The test result matches the joinsunfish page at https://github.com/joinsunfish/IvfSuccessCalculator?tab=readme-ov-file#example-using-own-eggs--did-not-previously-attempt-ivf--known-infertility-reason
-But does not match the current CDC IVF calculator which seems to calculate the rate of 58%
+and matches the current CDC IVF calculator to 2 decimal places with the rate of 62%
+
+See video that shows the confirmation and testing https://youtube.com/shorts/G1srHRAsiSs?si=gVQfc6n62uzX2buN
 
 See attached result
 [IVF_result_1.pdf](IVF_result_1.pdf "IVF_result_1.pdf")
